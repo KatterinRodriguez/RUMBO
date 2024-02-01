@@ -1,0 +1,193 @@
+header{
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+}
+/* Imagen para el cursor delr atón */
+/* body{
+    cursor: url("../img/brujula.png"), auto !important;
+} */
+
+.bg-nav-rumbo{
+    background: transparent !important;
+}
+
+.bg-nav-rumbo ul li a.nav-link{
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+}
+.bg-nav-rumbo ul li a.nav-link:hover{
+    border-bottom: 2px solid white;
+}
+
+#hero{
+    text-align: center;
+    margin-top: 200px;
+
+}
+ 
+#hero h2{
+    font-size: 60px;
+    color: yellow;
+    margin-bottom: 0;
+}
+
+#hero h1{
+    color: #fff;
+    margin-bottom: 100px;
+
+}
+    
+#hero button{
+    background: yellow;
+    color: gray;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 500px;
+    border-color: transparent;
+
+}
+
+/* Estilos de la sección Planes */
+#Planes{
+    padding: 120px 0;
+    text-align: center;
+
+}
+
+#Planes h2{
+    font-weight: 70px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+#Planes p{
+    font-size: 22px;
+
+}
+
+#Planes .Plan{
+    margin-top: 80px;
+    position: relative;
+}
+
+#Planes .Plan h3{
+    color: yellow;
+    position: absolute;
+    z-index: 99;
+    top: 120px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/* Estilos de la sesión Destinos */
+#destinos{
+    width: 100%;
+    background: url("../img/bg-destinos.png");
+    background-size: cover;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#destinos h2{
+    color: #e8f006;
+    font-size: 50px;
+    margin-bottom: 100px;
+    font-weight: 700px;
+}
+
+#destinos h3{
+    color: #fff;
+    margin: 20px 0 50px;
+}
+
+/* Estilos sesión de Contactos */
+
+#contacto{
+    width: 100%;
+    background: #e8f006;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#contacto h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#contacto p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+#contacto form{
+    width: 90%;
+    max-width:700px;
+    margin: 0 auto;
+}
+
+#contacto form input,
+#contacto form select{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+
+#contacto form button{
+    padding: 8px 60px;
+    background: #919604;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+
+    border: 1px solid #919604;
+    
+}
+/* Estilos Footer */
+footer{
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 30px;
+}
+
+/* Efectos Hover */
+#hero img,
+nav img,
+#hero button,
+#Planes img,
+#destinos img{
+    transition: .5s;
+}
+
+#hero img:hover{
+    transform: rotate(-360deg);
+}
+
+nav img:hover{
+    transform: scale(1.1);
+}
+
+#hero button:hover{
+    box-shadow: 4px 6px 6px 5px gray;
+}
+
+#Planes img:hover{
+    border-radius: 0 40px 0 40px;
+}
+
+#destinos img:hover{
+    transform: scale(0.9);
+}
+
